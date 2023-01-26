@@ -11,8 +11,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    color: var( --indx-fon-color);
-    font-weight: 500; 
+    background-color: var( --indx-fon-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -79,11 +78,12 @@ body{
 
 /* header */
 
-
+.navig{
+    background-color: var(--herov-text-color);
+}
 .header-link{ 
 }
-.header-kontakt{ 
-    font-weight: 400;  
+.header-kontakt{  
     color: var(--titel-text-color);
 }
 
@@ -93,13 +93,13 @@ body{
     background: var(--primary-text-color);
 }
 .herov-text{ 
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;    
     align-items: center;
     color: var(--herov-text-color);
 }
 .herov-btn{
+    font-weight: 500;
     font-family: inherit;
     background: var(--btn-fon-text-color);
     align-items: center;
@@ -111,16 +111,17 @@ body{
 /* privileges section  */
 
 .privil-titel{
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
 .privil-paragraph{
+    font-weight: 500;
     color: var(--titel-text-color);
 }
 
 /* doing section  */
 .doing-text {
-    font-weight: 700;
     font-size: 36px;
     line-height: 0.9;
     text-align: center;
@@ -135,7 +136,6 @@ body{
     background: var(--tem-logo-color);
 }
 .team-text {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -144,12 +144,12 @@ body{
 .team-img {
 }
 .team-titel {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
 }
 .team-paragraph {
-    font-weight: 400;
     text-align: center;
     color: var(--titel-text-color);
 }
@@ -157,11 +157,11 @@ body{
 /* footer section */
 
 .footer-paragraph {
-    font-weight: 400;
     color: var(--footer-text-color);
 }
 
 .por-but{  
+    font-weight: 500;
     font-family: inherit;
     align-items: center;
     text-align: center;
@@ -172,11 +172,11 @@ body{
 .por-img {
 }
 .por-titel {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;    
     color: var(--primary-text-color);
 }
 .por-paragraph {    
     color: var(--titel-text-color);
-    font-weight: 400;
 }
